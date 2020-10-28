@@ -1,6 +1,6 @@
 FROM registry.gitlab.com/knipegp/vemu/golang-riscv-gcc:0.1.0
 
-Run apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y \
     verilator \
     scala \
     git \
